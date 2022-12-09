@@ -89,6 +89,7 @@ footer {
 .introduction {
     margin-top: 100px;
 }
-a {
-    text-align: center;
+.website-button {
+    padding: auto;
+    margin: auto;
 }
