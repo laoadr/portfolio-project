@@ -47,6 +47,18 @@ p {
 .button:hover{
     color: white;
 }
+.button-website {
+    border-radius: 4px;
+    background-color: rgba(255, 189, 189, 0.616);
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-family);
+
+}
+.button-website:hover{
+    color: white;
+}
 .description {
     font-family: var(--font-family);
     font-size: 15px;
