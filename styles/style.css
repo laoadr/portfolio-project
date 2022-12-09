@@ -19,7 +19,8 @@ p {
 }
 .hero {
     text-align: center;
-    padding: 100px;
+    padding: 50px;
+    margin-top: 60px;
 
 }
 .guests {
@@ -53,4 +54,23 @@ p {
 .directions {
     text-align: left;
     font-family: 'Playfair Display', serif;
+}
+.text-left{
+    margin-top: 90px;
+}
+.contact-button {
+    border-radius: 4px;
+    background-color: rgba(255, 189, 189, 0.616);
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-family);
+    
+
+}
+.contact-button:hover{
+    color: white;
+}
+footer {
+    margin-top: 100px;
 }
