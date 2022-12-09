@@ -90,6 +90,9 @@ footer {
     margin-top: 100px;
 }
 .website-button {
-    padding: auto;
-    margin: auto;
+    display: inline-block;
+    text-align: center; 
+    margin-left: 50%; 
+    margin-right: 50%; 
+    overflow: visible; 
 }
