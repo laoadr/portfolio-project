@@ -1,5 +1,8 @@
+:root{
+    --font-family: 'Playfair Display', serif;
+}
 body {
-
+text-align: center;
 }
 h1 {
     font-family: 'Playfair Display', serif;
@@ -8,12 +11,46 @@ h1 {
     font-size: 40px;
     
 }
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
 p {
     font-size: 25px;
 }
 .hero {
     text-align: center;
-    background: radial-gradient(circle at 10% 20%, rgb(255, 189, 189) 0%, rgb(255, 216, 168) 62%, rgb(255, 248, 168) 100.7%);
     padding: 100px;
 
+}
+.guests {
+    font-size: 20px;
+}
+.col-6 {
+    text-align: left;
+}
+.container {
+    border: 1px solid white;
+    padding: 20px;
+    background-color: rgba(255, 189, 189, 0.616);
+
+}
+.button {
+    border-radius: 4px;
+    background-color: rgba(255, 189, 189, 0.616);
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-family);
+
+}
+.button:hover{
+    color: white;
+}
+.description {
+    font-family: var(--font-family);
+    font-size: 15px;
+}
+.directions {
+    text-align: left;
+    font-family: 'Playfair Display', serif;
 }
