@@ -89,10 +89,3 @@ footer {
 .introduction {
     margin-top: 100px;
 }
-.website-button {
-    display: inline-block;
-    text-align: center; 
-    margin-left: 50%; 
-    margin-right: 50%; 
-    overflow: visible; 
-}
